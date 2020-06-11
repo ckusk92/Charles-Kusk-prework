@@ -1,1 +1,38 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
 
+.Nav {
+	width: 100%;
+	background: gray;
+	margin-bottom: 30px;
+}
+
+.Left {
+	line-height: 355px;
+	height: 50%;
+	background: blue;
+	display: inline;
+	float: left;
+	width: 50%;
+	margin-bottom: 50px;
+}
+
+.Right {
+	line-height: 355px;
+	height: 50%;
+	background: red;
+	display: inline-block;
+	float: right;
+	width: 25%;
+	margin-bottom: 50px;
+}
+
+.Footer {
+	position: absolute;
+	bottom: 0%;
+	width: 100%;
+	background: green;
+}
