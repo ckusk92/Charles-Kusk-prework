@@ -1,10 +1,8 @@
 body {
 	text-align: center;
-	font-family: Arial, Helvetica, sans-serif;
-    	margin: 0;
-    	line-height: 1.5;
-    	text-transform: uppercase;
-    	background-color: #eeeeee;
+	font-family: cursive;
+    line-height: 1.25;
+    background-color: #bfbfbf;
 }
 
 h1 {
@@ -15,18 +13,31 @@ h1 {
 }
 
 .jumbotron {
+	font-family: 'Dancing Script', cursive;
 	position: fixed;
 	left: 5%;
 	width: 90%;
-	top: 15%;
-	background: #32e0c4;
+	top: 12%;
+}
+
+.jumbotron h1 {
+	font-family: 'MuseoModerno', cursive;
+}
+
+.jumbotron p {
+	font-size: xx-large;
 }
 
 .card {
-	position: fixed;
-	bottom: 1%;
+	position: absolute;
 	left: 40%;
+	bottom: 3%;
 	margin: auto;
+}
+
+.btn-primary:hover {
+	background: white;
+	color: #0099ff;
 }
 
 
