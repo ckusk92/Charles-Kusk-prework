@@ -75,6 +75,12 @@ var Hangman = {
 				new Audio('./assets/nfl_theme.mp3').play();
 				Hangman.play();
 			}
+
+			// If user is out of guesses restart game
+			if(Hangman.guessesRemaining <= 0) {
+				alert("You have used all your guesses");
+				Hangman.play();
+			}
 	    }
 	}
 };

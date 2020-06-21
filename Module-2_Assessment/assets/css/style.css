@@ -1,9 +1,10 @@
 body {
+	font-family: 'Notable', sans-serif;
 	text-align: center;
 	color: white;
 	background: url(../images/grass.jpg);
-	font-weight: bold;
 	text-shadow: 2px 2px 4px #000000;
+	letter-spacing: 1.4;
 }
 
 h1 {
@@ -15,7 +16,7 @@ h2 {
 }
 
 h3 {
-	font-size: 25px;
+	font-size: 40px;
 	text-transform: capitalize;
 }
 
