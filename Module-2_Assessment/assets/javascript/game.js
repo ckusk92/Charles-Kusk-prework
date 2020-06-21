@@ -85,24 +85,8 @@ var Hangman = {
 	}
 };
 
+// Begins the game
 Hangman.play();
 
+// Sets up event handler for keypress
 document.addEventListener('keypress', Hangman.keyPressed);
-/*
-// keyCode returns ascii value of key pressed a=97
-function keyPressed(e) {
-	var letter = String.fromCharCode(e.keyCode);
-	if(e.keyCode >= 97 && e.keyCode <= 122)
-	if(!Hangman.lettersGuessed.includes(letter)) {
-		Hangman.lettersGuessed.push(letter);
-		lettersGuessed.innerText = Hangman.lettersGuessed.join(" ");
-		Hangman.guessesRemaining--;
-		guessesRemaining.innerText = Hangman.guessesRemaining;
-		for(var x = 0; x < randomWord.length; x++) {
-			if(letter === randomWord[x]) {
-
-			}
-		}
-	}
-}
-*/
